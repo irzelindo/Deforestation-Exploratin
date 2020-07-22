@@ -6,7 +6,7 @@ My executive director and her leadership team members are looking to understand 
 I was able to find tables of data online dealing with forestation as well as total land area and region groupings, I brought these tables together into a database that I'd like to query to answer some of the most important questions in preparation for a meeting with the ForestQuery executive team coming up in a few days. Ahead of the meeting, I'd like to prepare and disseminate a report for the leadership team that uses complete sentences to help them understand the global deforestation overview between 1990 and 2016.
 
 ## Steps to Complete
-1. Create a View called **“forestation”** by joining all three tables - **forest_area**, **land_area** and **regions**.
+1. Create a View called [**“forestation”**](https://github.com/irzelindo/Deforestation-Exploratin/blob/master/forestation_view.sql) by joining all three tables - **forest_area**, **land_area** and **regions**.
 2. The **forest_area** and **land_area** tables join on both **country_code** AND **year**.
 3. The **regions** table joins these based on only **country_code**.
 4. In the **forestation** View, include the following:
@@ -66,3 +66,5 @@ c. If countries were grouped by percent forestation in quartiles, which group ha
 d. List all of the countries that were in the 4th quartile (percent forest > 75%) in 2016.
 
 e. How many countries had a percent forestation higher than the United States in 2016?
+
+Find all answers for this questions on the [*projetc_template*](https://github.com/irzelindo/Deforestation-Exploratin/blob/master/project-template-deforestation-exploration-solution.pdf) or in [*sql_queries.sql*](https://github.com/irzelindo/Deforestation-Exploratin/blob/master/sql_queries.sql) files
